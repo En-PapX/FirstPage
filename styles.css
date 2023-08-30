@@ -7,6 +7,46 @@
     justify-content: space-between;;
 }
 
+.Header-container,
+.Title-container {
+    background-color: #343544;
+    color: #ffffff;
+}
+
+.Logo,
+.header-links {
+    padding: 25px;
+}
+
 .header-links {
     display:flex;
+}
+
+.Title-container {
+    display: flex;
+    padding: 50px;
+}
+
+.pic-bar {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.bar {
+    border: solid black 5px;
+}
+
+.quote-container {
+    background-color: #2f4f4f;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.footer-container {
+    background-color: #add8e6;
+    display: flex;
+    margin: 50px;
+    padding: 25px;
+    justify-content: space-around;
 }
