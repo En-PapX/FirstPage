@@ -1,0 +1,12 @@
+* {
+    font-family: sans-serif;
+}
+
+.Header-container {
+    display: flex;
+    justify-content: space-between;;
+}
+
+.header-links {
+    display:flex;
+}
